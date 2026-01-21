@@ -135,7 +135,7 @@ body {
     align-items: start;
     gap: 40px;
     
-    > div:nth-child(1) {
+    > div:first-child {
         margin-left: -15px;
         gap: 10px;
         
@@ -146,6 +146,10 @@ body {
         svg {
             width: calc(var(--font-size) * 3);
             height: calc(var(--font-size) * 3);
+        }
+
+        svg:hover {
+            fill: orange;
         }
     }
     
@@ -308,7 +312,7 @@ svg {
     fill: var(--sidebar-color);
 }
 
-svg:hover {
+.hoverable:hover {
     background-color: var(--bleak-blue);
     border-radius: 50%;
     box-shadow: var(--default-shadow);
