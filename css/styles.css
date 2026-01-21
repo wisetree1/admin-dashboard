@@ -246,6 +246,10 @@ body {
     .right-sidebar {
         grid-column: 2;
     }
+    
+    .announcements {
+        margin-bottom: 40px;
+    }
 
     .announcements .announcements-items, .trending .trending-items {
         display: flex;
